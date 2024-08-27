@@ -23,3 +23,7 @@ torch==1.9.1+cu111
 torchsummary==1.5.1
 tqdm==4.61.2
 ```
+## Usage
+- After downloading the code locally, you can run the example by directly running the **train.py** file, the dataset used in the example is in the test data folder.
+- The **model.py** file contains the DSCformer model. You can change the model configuration by configuring the incoming parameters of the **dsc** function, including Token Mixer, Patch Size, DSCers_num, and so on.
+- The file **model_analysis.py** contains a series of evaluations of the model, which can be run to obtain a series of information about the model, including the specific structure, run time, etc..
