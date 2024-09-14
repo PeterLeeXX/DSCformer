@@ -100,9 +100,9 @@ def train(model):
     total_test_step = 0
 
     optimizer = torch.optim.AdamW(model.parameters(), lr=original_learn_rate)
-    # lr_scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=15, T_mult=2, eta_min=1e-8)
-    lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=20,
-                                                              verbose=True, min_lr=1e-8)
+    lr_scheduler = torch.optim.lr_scheduler.CosineAnnealingWarmRestarts(optimizer, T_0=15, T_mult=2, eta_min=1e-8)
+    # lr_scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, mode='min', factor=0.1, patience=20,
+    #                                                           verbose=True, min_lr=1e-8)
     loss_func = RMSELoss()
     writer = SummaryWriter(log_dir='/root/tf-logs')
     writer.add_graph(model=model, input_to_model=torch.randn(1, 1, 4200).to(device))
