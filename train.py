@@ -195,12 +195,11 @@ if __name__ == "__main__":
                                                   num_workers=Num_Workers, drop_last=False)
     device_str = "cuda"
     device = torch.device(device_str if torch.cuda.is_available() else "cpu")
-    print(label_train.describe(), label_train.skew())
-    print(label_test.describe(), label_test.skew())
-    print(label_val.describe(), label_val.skew())
+    print("Train Set：", label_train.describe(), label_train.skew())
+    print("Test Set：", label_test.describe(), label_test.skew())
+    print("Val Set：", label_val.describe(), label_val.skew())
 
     model = dsc(patch_size=60, depth=1, p_divide=5, mlp_ratio=1.0, token_mixer='dsc')
-    print("this is model DSCformer_p60_M1.0_dv5_d1")
     _init_vit_weights(model)
     model.to(device)
     if IF_Train_Model:
