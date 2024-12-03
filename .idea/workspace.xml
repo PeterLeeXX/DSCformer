@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3770c157-7e74-4c59-a0c8-ac586f3090c0" name="默认更改列表" comment="" />
+    <list default="true" id="3770c157-7e74-4c59-a0c8-ac586f3090c0" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="2jPTkYte9ITsO1uVuI9uSmPTYOe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -15,7 +22,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunManager" selected="Python.train">
     <configuration name="model" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -84,6 +93,15 @@
       <workItem from="1721370827679" duration="48000" />
       <workItem from="1721449024796" duration="739000" />
       <workItem from="1721628889565" duration="8326000" />
+      <workItem from="1721703320429" duration="1336000" />
+      <workItem from="1721876745796" duration="62000" />
+      <workItem from="1724731390898" duration="210000" />
+      <workItem from="1725204204249" duration="1723000" />
+      <workItem from="1726244736866" duration="572000" />
+      <workItem from="1730814875250" duration="71000" />
+      <workItem from="1730817044035" duration="637000" />
+      <workItem from="1733127602898" duration="2440000" />
+      <workItem from="1733198968310" duration="13000" />
     </task>
     <servers />
   </component>
@@ -91,26 +109,14 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom" timestamp="1721650895885">
+    <state x="31" y="31" width="1186" height="707" key="SettingsEditor" timestamp="1724731596619">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1721650895885" />
-    <state width="1493" height="183" key="GridCell.Tab.0.center" timestamp="1721650895884">
+    <state x="31" y="31" width="1186" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1724731596619" />
+    <state x="467" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1730814876274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1721650895884" />
-    <state width="1493" height="183" key="GridCell.Tab.0.left" timestamp="1721650895884">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1721650895884" />
-    <state width="1493" height="183" key="GridCell.Tab.0.right" timestamp="1721650895885">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="1493" height="183" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1721650895885" />
-    <state x="467" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1721628889511">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="467" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1721628889511" />
+    <state x="467" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1730814876274" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DSCformer$train.coverage" NAME="train Coverage Results" MODIFIED="1721650814086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
