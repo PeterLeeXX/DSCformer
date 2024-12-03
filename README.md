@@ -16,9 +16,11 @@
 - Integration of **deep separable convolution(DSC)** to reduce model complexity.
 - A highly efficient architecture with only **20.86K parameters** and **1.08 MFLOPs**.
 - Superior performance, achieving **RMSE: 0.98 g·kg⁻¹**, **R²: 0.928**, and ultra-fast runtimes (**4.265ms on CPU**, **0.071ms on GPU**).
-- Enhanced **interpretability** using the **SHAP method**, which highlights critical spectral bands (e.g., **2020-2080 nm**, **2410-2440 nm**).
 ![Comparison of DSCformer model performance with other models](./images/model_comparison_visualization.png)
+
+- Enhanced **interpretability** using the **SHAP method**, which highlights critical spectral bands (e.g., **2020-2080 nm**, **2410-2440 nm**).
 ![Interpretability Analysis SHAP Summary](./images/SHAP.png)
+
 This work has been published in the journal COMPUTERS AND ELECTRONICS IN AGRICULTURE, marking an step toward practical, efficient, and interpretable soil nutrient prediction using deep learning techniques.
 ## :chart_with_upwards_trend: Dataset
  The following two datasets can be used:
@@ -43,7 +45,7 @@ torch==1.9.1+cu111
 torchsummary==1.5.1
 tqdm==4.61.2
 ```
-## Usage
+## :gift: How to use
 - After downloading the code locally, you can run the example by directly running the **train.py** file, the dataset used in the example is in the test data folder.
 - The **model.py** file contains the DSCformer model. You can change the model configuration by configuring the incoming parameters of the **dsc** function, including Token Mixer, Patch Size, DSCers_num, and so on.
 - The file **model_analysis.py** contains a series of evaluations of the model, which can be run to obtain a series of information about the model, including the specific structure, run time, etc..
