@@ -1,13 +1,33 @@
 # 🚀DSCformer
  DSCformer: Lightweight model for predicting soil nitrogen content using VNIR-SWIR spectroscopy
-## Dataset
+ 
+- ** Innovative Lightweight Model: **This paper introduces DSCformer, a novel lightweight model based on a new architecture that combines deep learning with spectral techniques.
+- **Superior Performance: **DSCformer outperforms other deep learning methods, including CNN, ResNet, VIT, MobileNet, and ShuffleNet.
+- **Lightweight and Efficient: **DSCformer is exceptionally lightweight with the fewest parameters and minimal computational requirements, making it highly efficient. It demonstrates fast CPU and GPU speeds.
+- **Practical Application Potential: **DSCformer has the potential to facilitate the practical deployment of deep learning models in soil spectral prediction.
+## :books: Introduction
+ We present **DSCformer**, a lightweight and high-precision deep learning model for predicting soil nitrogen content. 
+ 
+ Combining the feature extraction capabilities of the **Metaformer architecture** with the efficiency of **deep separable convolution(DSC)**, DSCformer achieves a breakthrough in balancing accuracy and computational efficiency for soil nutrient prediction.
+
+ ![Overview of the model structure](images/model.svg)
+
+**Key innovations** of DSCformer include:
+- Integration of **deep separable convolution(DSC)** to reduce model complexity.
+- A highly efficient architecture with only **20.86K parameters** and **1.08 MFLOPs**.
+- Superior performance, achieving **RMSE: 0.98 g·kg⁻¹**, **R²: 0.928**, and ultra-fast runtimes (**4.265ms on CPU**, **0.071ms on GPU**).
+- Enhanced **interpretability** using the **SHAP method**, which highlights critical spectral bands (e.g., **2020-2080 nm**, **2410-2440 nm**).
+![Comparison of DSCformer model performance with other models](images/model_comparison_visualization.png)
+![Interpretability Analysis SHAP Summary](images/SHAP.png)
+This work has been published in the journal COMPUTERS AND ELECTRONICS IN AGRICULTURE, marking an step toward practical, efficient, and interpretable soil nutrient prediction using deep learning techniques.
+## :chart_with_upwards_trend: Dataset
  The following two datasets can be used:
 |DataSet|URL|
 | ----------- | ----------- |
 |LUCAS 2015 TOPSOIL data|https://esdac.jrc.ec.europa.eu/content/lucas2015-topsoil-data|
 |LUCAS 2009 TOPSOIL data **(Recommended)**|https://esdac.jrc.ec.europa.eu/content/lucas-2009-topsoil-data|
 
-## Requirements
+## :clipboard: Requirements
 ```
 einops==0.8.0
 matplotlib==3.2.2
