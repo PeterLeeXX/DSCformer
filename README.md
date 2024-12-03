@@ -16,12 +16,14 @@
 - Integration of **deep separable convolution(DSC)** to reduce model complexity.
 - A highly efficient architecture with only **20.86K parameters** and **1.08 MFLOPs**.
 - Superior performance, achieving **RMSE: 0.98 g·kg⁻¹**, **R²: 0.928**, and ultra-fast runtimes (**4.265ms on CPU**, **0.071ms on GPU**).
+
 ![Comparison of DSCformer model performance with other models](./images/model_comparison_visualization.png)
 
 - Enhanced **interpretability** using the **SHAP method**, which highlights critical spectral bands (e.g., **2020-2080 nm**, **2410-2440 nm**).
+
 ![Interpretability Analysis SHAP Summary](./images/SHAP.png)
 
-This work has been published in the journal COMPUTERS AND ELECTRONICS IN AGRICULTURE, marking an step toward practical, efficient, and interpretable soil nutrient prediction using deep learning techniques.
+This work has been published in the journal **COMPUTERS AND ELECTRONICS IN AGRICULTURE**, marking an step toward practical, efficient, and interpretable soil nutrient prediction using deep learning techniques.
 ## :chart_with_upwards_trend: Dataset
  The following two datasets can be used:
 |DataSet|URL|
